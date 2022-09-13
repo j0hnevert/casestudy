@@ -23,7 +23,7 @@ const NewCourse = () => {
 
     const enrollCourse = async () => {
         try {
-            const res = await fetch('http://localhost:3000/api/training', {
+            const res = await fetch('https://warcasestudy.vercel.app/api/training', {
                 method: 'POST',
                 headers: {
                     "Accept": "application/json",
